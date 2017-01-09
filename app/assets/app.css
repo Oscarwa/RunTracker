@@ -1,0 +1,122 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-size:14px;
+  height:100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Toolbar area */
+
+.menu {
+  background-color: transparent;
+  border: none;
+  height: 38px;
+  margin: 16px;
+  width: 36px;
+}
+
+md-toolbar h3 {
+  margin: auto;
+  font-weight: 500;
+}
+
+/* Sidenav area */
+
+md-list-item > button {
+  width:100%;
+  text-align:left !important;
+}
+
+  md-list .md-button.selected {
+    color: #03a9f4;
+  }
+
+  md-sidenav  md-list {
+    padding: 0px 0px 8px 0px;
+  }
+
+
+/* Primary content area */
+.md-select-car .md-select-header-searchbox-input {
+  border: none;
+  outline: none;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+}
+.md-select-car .md-select-header-searchbox {
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1), 0 0 0 0 rgba(0, 0, 0, 0.14), 0 0 0 0 rgba(0, 0, 0, 0.12);
+  padding-left: 10.667px;
+  height: 48px;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: auto;
+}
+.md-select-car md-content._md {
+  max-height: 240px;
+}
+
+
+/* Utils */
+
+.content-wrapper {
+  position: relative;
+}
+
+/* Typography support coming in 0.8.0 */
+
+md-toolbar h1 {
+  font-size: 1.250em;
+  font-weight: 400;
+}
+
+.avatar {
+  position: relative;
+  width: 128px;
+  height: 128px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  display: inline-block;
+  overflow: hidden;
+  margin: 0px;
+  vertical-align: middle;
+  zoom:0.70;
+  transform: translateZ(0);
+  -webkit-transform: scale(0.70);
+  -moz-transform:scale(0.70);
+}
+
+
+md-bottom-sheet  md-icon {
+  margin-right:20px;
+}
+
+span.name {
+  font-weight: bold;
+  font-size:1.1em;
+  padding-left:5px;
+}
+
+/* Custom styles */
+button.md-button.login-btn {
+  text-transform: none;
+  height: 60px;
+  font-size: 1.5em;
+  color: white;
+}
+button.md-button.login-btn.fb-login {
+  background-color: rgb(59, 89, 152) !important;
+}
+button.md-button.login-btn.fb-login:hover {
+  background-color: rgba(59, 89, 152, 0.9) !important;
+}
+
+button.md-button.login-btn.g-login {
+  background-color: rgb(66, 133, 244) !important;
+}
+button.md-button.login-btn.g-login:hover {
+  background-color: rgba(66, 133, 244, 0.9) !important;
+}
